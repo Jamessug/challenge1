@@ -1,2 +1,2 @@
-# challenge1
+# Refractor challenge
 edx challenge 1
