@@ -8,6 +8,16 @@ body {
     background-color: #d9dcd6;
 }
 
+@media only screen and (max-width: 600px) {
+    /* Styles for screens with a maximum width of 600px (adjust as needed) */
+    body {
+      font-size: 14px; /* Adjust font size for smaller screens */
+    }
+  
+    /* Add more styles for smaller screens as needed */
+  }
+  
+
 /* Header Styles */
 .header {
     padding: 20px;
