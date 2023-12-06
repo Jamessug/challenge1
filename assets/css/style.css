@@ -14,6 +14,7 @@ body {
     padding: 20px;
     background-color: #2a607c;
     color: #ffffff;
+    overflow: hidden; /* Clear float */
 }
 
 .header h1 {
@@ -58,6 +59,7 @@ a {
 /* Content Styles */
 .content {
     padding: 20px;
+    overflow: hidden; /* Clear float */
 }
 
 /* Changed the selector to target the direct child of .content */
@@ -71,9 +73,9 @@ a {
 
 /* Adjust image size within content for desktop */
 .content img {
-    max-width: 100%; /* Ensures images don't overflow their container */
-    height: auto; /* Maintains image aspect ratio */
-    max-height: 150px; /* Limit image height */
+    max-width: 100%;
+    height: auto;
+    max-height: 150px;
 }
 
 .content h2 {
@@ -84,8 +86,9 @@ a {
 /* Benefits Styles */
 .benefits {
     padding: 20px;
-    margin-top: 20px; /* Add some space between content and benefits */
+    margin-top: 20px;
     background-color: #2589bd;
+    overflow: hidden; /* Clear float */
 }
 
 /* Changed the selector to target the direct child of .benefits */
@@ -93,17 +96,14 @@ a {
     margin-bottom: 20px;
     color: #ffffff;
     text-align: center;
-}
-
-.benefits h3 {
-    margin-bottom: 10px;
+    min-height: 300px;
 }
 
 /* Adjust image size within benefits for desktop */
 .benefits img {
-    max-width: 100%; /* Ensures images don't overflow their container */
-    height: auto; /* Maintains image aspect ratio */
-    max-height: 150px; /* Limit image height */
+    max-width: 100%;
+    height: auto;
+    max-height: 150px;
 }
 
 /* Footer Styles */
